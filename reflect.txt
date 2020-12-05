@@ -1,0 +1,52 @@
+//==============================================
+// Name:           Navdeep Virdi
+// Student Number: 166485193
+// Email:          nvirdi2@myseneca.ca
+// Section:        NAA
+// Date:           Dec 4th, 2020
+//==============================================
+// Assignment:     2
+// Milestone:      4 (Reflection)
+//==============================================
+
+						                                         Milestone 4 Reflection
+                                                    ————————————————————————
+	  This assignment was an amazing experience of using different variables, arrays, structs, and files.
+  To start with such an amazing but difficult  learning experience with milestones one and two. As difficult 
+  as it was to learn how to match other files depend on each other and how to organize it, the experience as taught
+  me a lot how to code like an experienced c programmer. The milestone one explains how I can grab the variables from 
+  one file and use it in another. While still keeping my files organized for others to read and process. The main
+  idea that I have learned is how to create many files in one and instead of keeping one main void function, you can
+  create many and functions and call up functions in other functions. That was very helpful because it did not create
+  too much of a mess. Not only that but creating many functions instead of one allowed me to use those functions and 
+  know what the were all going to do. It made the code much less repetitive because of each loop. Each helpers file is 
+  containing information for the following files and keep the workload in it. This taught me that with the main function 
+  on a different file and then the math and work on a different file the organization is much easier. However, not only 
+  is it organized the debugging process is much easier than looking through 2000+ lines and just looking at 5 files with 
+  500+ each. 
+	The findContactIndex and getTenDigitPhone were main the functions of milestones 3 and 4 they helped so much with the whole
+  program. This program had an ending result which was to take in the information of a client or user and you 
+  should be able to update, add search, etc with contacts. What these two functions did was make it easier to 
+  search for and get cell phone numbers. In each function, it would have been a struggle to take all of the users' 
+  information and every time a change or search was made to create the loops over and over again. The logic behind this 
+  was to have got ten digits only from a user and only digits. Any extra characters or spaces would make the loop repeats 
+  itself and make it ask for a ten-digit number. In each other the functions they would ask for a cell phone number whether 
+  it was to search, add, delete, or update each of the contacts. The getTenDigitPhone made it easier to store and only get 
+  the ten digits. The findContactIndex was created just like the getTenDigitPhone, however, instead of it being looped for 
+  the phone numbers it loops after taking a number and looking for the cell phone. The loop takes the valid phone number and 
+  finds the contacts that have the same numbers in the struct. For example in the contactsHelpers.c file in the function 
+  deleteContact, it asks for a cell phone number and takes that cell phone number and searches through the contacts[] struct array for that same number than presents it to the user. Then after the user has the option to delete it or not. 
+  The next place where both these functions came in handy was when you call up to update a contact. During this, you get the 
+  getTenDigitPhone number and gives it to findContactIndex for it look it up in the array called contacts too. In the other
+  function both of the findContactIndex and getTenDigitPhone play the same part. They ask for a number and looks for it.
+  Which made the good so much cleaner and less repetitive because you don’t see the same loop over and over again it is just
+  simply called upon. 
+	To continue, this assignment is amazing however if I could change it and add a load/save the information and a 
+  from/to a text data file I would not add that. I feel like this program has made it easier to find the contacts. 
+  However, if there was a way to just pull up a text file I would not because then you would not be able to search the
+  information like the  displayContact function does inside of this program. This just takes the information that was given and stores it however if you open the text file you would not have the same amount of control as you do with this program. 
+  The text file you would have to CTRL+F the whole file its self where this program you can search by number and it will only
+  display the contact that the user is looking for. There is so many more reason on why I just prefer this why other than the
+  disorganization, lack of control, finding it being too hard, and they’re so much more. I believe a good change would be 
+  making it have a password to open the system and continue the program because it would be a good change to it and not 
+  everyone would have it just the person with the password can open the system.
