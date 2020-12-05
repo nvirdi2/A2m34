@@ -477,6 +477,7 @@ void updateContact(struct Contact contacts[], int size)      //Fuction called up
 		}
 
 		printf("--- Contact Updated! ---\n");           //contact has been updated
+		printf("\n");
 	}
 	else 
 	{
