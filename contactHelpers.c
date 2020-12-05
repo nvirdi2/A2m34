@@ -428,6 +428,7 @@ void addContact (struct Contact contacts[], int size)      //Fuction called addC
 	else if (q == size - 1)       //if not that loop then print out that the array is full
 	{
 		printf("*** ERROR: The contact list is full! ***\n");       //print out message which means the list is full
+		printf("\n");
 	}
   }
 }
