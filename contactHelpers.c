@@ -441,7 +441,7 @@ void updateContact(struct Contact contacts[], int size)      //Fuction called up
 	int contactFound;               // the integer for contactFound is for the index of the array that user is looking for 
 	int yesorNo;                   // the users input choice if they want to delete the contacts
 
-	printf ("Enter the cell phone number for the contact: ");        // askes the user the cellphone for the contacts
+	printf ("Enter the cell number for the contact: ");        // askes the user the cellphone for the contacts
 	getTenDigitPhone(cellNum);                        // the tengetdigitphone number function is called up again and the users input is cellNum is stored
 
 	contactFound = findContactIndex(contacts, size, cellNum);   // the contactsfound looks there the index to find the matching number
