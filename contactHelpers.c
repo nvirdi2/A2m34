@@ -421,7 +421,7 @@ void addContact (struct Contact contacts[], int size)      //Fuction called addC
 		if (strlen(contacts[q].numbers.cell) == 0)       //if the string line for the contacts and the vairable in the loop q for the cell phone number is equal to 0
 		{
 		getContact(&contacts[q]);     //get the contact and the name,address, and numbers
-		printf("-- New contact added! ---\n\n");        //print out that the loop was 
+		printf("--- New contact added! ---\n\n");        //print out that the loop was 
 		break;              //break loop
 		}
 
