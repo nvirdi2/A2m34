@@ -552,4 +552,5 @@ void sortContacts(struct Contact contacts[], int size)       //Fuction called so
 		}
 	}
 	printf("--- Contacts sorted! ---\n");     //final outcome message saying the loop finished and worked "Contacts sorted!"
+	printf("\n");
 }
