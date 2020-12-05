@@ -512,7 +512,6 @@ void deleteContact(struct Contact contacts[], int size)      //Fuction called de
 	if (yesorNo == 1)             //if it yesorNo equals to the yes (1) then it will continue this loop
 	{
 		contacts[contactFound] = rearrange;         // finds the contacts in the struct array 
-		printf("\n");              //print out empty new line
 		printf("--- Contact deleted! ---\n");       //contact has been deleted
 	}
 	printf("\n");               //print out empty new line
