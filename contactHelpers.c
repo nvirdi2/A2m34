@@ -323,6 +323,7 @@ void displayContactFooter (int count)         //Fuction called displayContactFoo
 {
 	printf("+-----------------------------------------------------------------------------+\n");     //print out footer 
 	printf("Total contacts: %d\n", count);   //counts the total contacts stored with the  max of 5 and prints it out
+	printf("\n");
 }
 
 
